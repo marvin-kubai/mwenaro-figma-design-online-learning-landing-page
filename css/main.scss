@@ -29,12 +29,13 @@ body {
   color: #113c49;
   text-decoration: none;
 }
-.nav-links a {
+ .nav-links a {
   text-decoration: none;
   font-size: 20px;
   font-weight: 400;
   color: #2f327d;
-  margin-top: 70px;
+  padding-inline: 40px;
+  
 }
 .nav-buttons {
   display: flex;

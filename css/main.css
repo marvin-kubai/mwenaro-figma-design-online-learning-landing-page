@@ -35,7 +35,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   color: #2f327d;
-  margin-top: 70px;
+  padding-inline: 40px;
 }
 
 .nav-buttons {
