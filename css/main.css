@@ -509,6 +509,7 @@ body {
   font-family: "Poppins", sans-serif;
   width: 1580px;
   margin-top: 150px;
+  margin: 150px auto 0;
 }
 
 .features h3 {
@@ -536,7 +537,6 @@ body {
   display: flex;
   width: 1580px;
   height: 650px;
-  margin-left: 80px;
   gap: 30px;
 }
 
@@ -629,7 +629,7 @@ body {
   margin-top: 30px;
 }
 
-.group-123 {
+.tools-teachers {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -637,7 +637,7 @@ body {
   margin-top: 50px;
 }
 
-.group-123-left h4 {
+.tools-teachers-left h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 40px;
@@ -647,7 +647,7 @@ body {
   width: 393px;
   height: 128px;
 }
-.group-123-left h4 span {
+.tools-teachers-left h4 span {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 40px;
@@ -657,23 +657,23 @@ body {
   width: 393px;
   height: 128px;
 }
-.group-123-left p {
+.tools-teachers-left p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 22px;
   color: #696984;
-  letter-spacing: %;
+  letter-spacing: 0%;
   line-height: 180%;
   width: 568px;
   height: 160px;
 }
 
-.group-93 {
+.assessments {
   display: flex;
   align-items: center;
   width: 1460px;
   height: 650px;
-  margin-left: 192px;
+  margin: 150px auto 0;
   margin-top: 100px;
   gap: 100px;
 }
@@ -723,7 +723,7 @@ body {
   align-items: center;
   width: 1545px;
   height: 560px;
-  margin-left: 180px;
+  margin: 150px auto 0;
   margin-top: 120px;
   gap: 60px;
 }
@@ -763,7 +763,7 @@ body {
   align-items: center;
   width: 1486px;
   height: 499px;
-  margin-left: 180px;
+  margin: 150px auto 0;
   margin-top: 120px;
   gap: 60px;
 }
@@ -797,4 +797,102 @@ body {
   line-height: 180%;
   width: 540px;
   height: 120px;
+}
+
+.features-btn {
+  width: 280px;
+  height: 80px;
+  border-radius: 80px;
+  border: 1px solid #f48c06;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto 0;
+}
+
+.features-btn button {
+  height: 43px;
+  color: #f48c06;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.intergrations {
+  width: 1460px;
+  height: 460px;
+  margin: 150px auto 0;
+  display: flex;
+  align-items: center;
+  gap: 300px;
+}
+
+.intergrations-left {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.layer-1,
+.layer-2 {
+  display: flex;
+  gap: 80px;
+}
+
+.layer-1 img,
+.layer-2 img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.intergrations-right {
+  width: 688px;
+  height: 460px;
+}
+
+.intergrations-right h5 {
+  height: 56px;
+  color: #525596;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 20%;
+}
+
+.intergrations-right h4 {
+  width: 550px;
+  height: 56px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #2f327d;
+}
+
+.intergrations-right h4 span {
+  width: 550px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #f48c06;
+}
+
+.intergrations-right p {
+  width: 750px;
+  height: 70px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 180%;
+  color: #696984;
+  margin-top: 80px;
+}
+
+.intergrations-right button {
+  margin-top: 100px;
+  width: 280px;
+  height: 80px;
+  border-radius: 80px;
+  border: 1px solid #f48c06;
+  color: #f48c06;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
